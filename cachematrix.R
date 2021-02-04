@@ -1,8 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This assignment gives cache in the memory, if exist 
+## 
 
-## Write a short comment describing this function
-
+# This function creates an object that can have cache inverse
 makeCacheMatrix <- function(x = matrix()) {
    inve<-NULL
    set<-function(y){
@@ -18,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## this function brings cached version of matrix inverse
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
